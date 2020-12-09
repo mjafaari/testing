@@ -13,19 +13,19 @@
 برای نصب `nodejs` از دستور زیر استفاده می کنیم:
 
 <div dir="ltr">
-sudo apt install nodejs
+`sudo apt install nodejs`
 </div>
 
 برای نصب `npm` از دستور زیر استفاده می کنیم:
 
 <div dir="ltr">
-sudo apt install npm
+`sudo apt install npm`
 </div>
 
 برای نصب `tsc` نیز از `npm` استفاده می کنیم:
 
 <div dir="ltr">
-npm install -g typescript
+`npm install -g typescript`
 </div>
 
 حال برای کامپایل و اجرای برنامه های این زبان مراحل زیر را طی می کنیم:
