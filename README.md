@@ -11,14 +11,19 @@
 # installation
 
 برای نصب `nodejs` از دستور زیر استفاده می کنیم:
+
 <div dir="ltr">
 sudo apt install nodejs
 </div>
+
 برای نصب `npm` از دستور زیر استفاده می کنیم:
+
 <div dir="ltr">
 sudo apt install npm
 </div>
+
 برای نصب `tsc` نیز از `npm` استفاده می کنیم:
+
 <div dir="ltr">
 npm install -g typescript
 </div>
@@ -27,7 +32,7 @@ npm install -g typescript
 
 1.ابتدا فایل مورد نظر را با پسوند `ts.` ذخیره می کنیم (برای مثال `test.ts`)
 	
-2.سپس فایل مورد نظر را با دستور `tsc [file_name].ts` به زبان js کامپایل می کنیم.(خروجی آن یک فایل به نام `[file_name].js` است)
+2.سپس فایل مورد نظر را با دستور `tsc [file_name].ts` به زبان js کامپایل می کنیم.(خروجی آن یک فایل مانند `test` است)
 	
 3.در نهایت برای اجرای فایل نهایی دستور `node [file_name].js` را اجرا می کنیم.
 	
