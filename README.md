@@ -383,5 +383,73 @@ TypeScript درواقع همان JavaScript است که شی گرایی را س�
 2. Constructors
 3. Functions
 
+-یک مثال از یک کلاس که شامل هر ۳ این اعضا است در زیر آمده است:
+
+<div dir="ltr">
+
+    class Car { 
+        //field 
+        engine:string; 
+ 
+        //constructor 
+        constructor(engine:string) { 
+            this.engine = engine 
+        }  
+
+        //function 
+        disp():void { 
+            console.log("Engine is  :   "+this.engine) 
+        } 
+    }
+
+</div>
+
+# Object
+
+یک object یک نمونه است که شامل مجموعه ای از کلید ها و مقدار هاست. این مقدار ها میتوانند عددی، فانکشن یا حتی آرایه از شی های دیگر باشند.
+
+- سینتکس object بصورت زیر است:
+
+<div dir="ltr">
+
+    var object_name = { 
+        key1: “value1”, //scalar value 
+        key2: “value”,  
+        key3: function() {
+             //functions 
+        }, 
+        key4:[“content1”, “content2”] //collection  
+    };
+
+</div>
+
+-یک نمونه کد برای تعریف یک object و دسترسی به اعضای آن:
+
+<div dir="ltr">
+
+    var person = { 
+        firstname:"Tom", 
+        lastname:"Hanks" 
+    }; 
+    //access the object values 
+    console.log(person.firstname) 
+    console.log(person.lastname)
+
+</div>
+
+همچنین در صورتی که بخواهیم مقادیری را به object اضافه کنیم. TypeScript با استفاده از تعریف یک method template این اجازه را به ما میدهد. مثلا در قطعه کد زیر ما یک فانکشن را به شی person اضافه میکنیم:
+
+<div dir="ltr">
+
+    var person = {
+        firstName:"Tom", 
+        lastName:"Hanks", 
+        sayHello:function() {  }  //Type template 
+    } 
+    person.sayHello = function() {  
+        console.log("hello "+person.firstName)
+    } 
+
+</div>
 
 </div>
