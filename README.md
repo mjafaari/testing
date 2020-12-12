@@ -234,5 +234,22 @@
 
 سینتکس فانکشن به صورت زیر است:
 
+<div dir="ltr">
+
+    function func_name( param1 [:datatype], param2 [:datatype]…) { 
+        // function body   
+    }
+
+</div>
+
+که وجود پارامتر ها اختیاری است.
+
+همچنین سینتکس برای صدا زدن یک فانکشن بصورت زیر است:
+
+<div dir="ltr">
+
+    function_name(param1 , param2…)
+
+</div>
 
 </div>
