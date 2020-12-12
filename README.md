@@ -132,9 +132,9 @@
 
 - TypeScript یک زبان Object Oriented است. اشیا در این زبان سه feature اصلی دارند.
 
-	1- State
-	2- Behavior
-	3- Identity
+	1. State
+	2. Behavior
+	3. Identity
 
 
 </div>
