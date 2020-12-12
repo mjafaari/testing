@@ -127,8 +127,11 @@
 برخی نکات اولیه در سینتکس TypeScript:
 
 - semicolon در TypeScript اختیاری است. هر دستور در TypeScript یک عبارت نام دارد. یک خط می‌تواند شامل چندین دستور باشد به شرطی که دستورات توسط semicolon از یکدیگر جدا شده باشند.
+
 - TypeScript، حساس به بزرگی حروف است.
+
 - TypeScript یک زبان Object Oriented است. اشیا در این زبان سه feature اصلی دارند.
+
 	1- State
 	2- Behavior
 	3- Identity
