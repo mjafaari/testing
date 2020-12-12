@@ -252,4 +252,21 @@
 
 </div>
 
+-یک نمونه کد برای ایجاد یک فانکشن و صدا زدن آن:
+
+<div dir="ltr">
+
+    function disp_details(id, name, mail_id) {
+        console.log("ID:", id);
+        console.log("Name", name);
+	
+    if (mail_id != undefined)
+        console.log("Email Id", mail_id);
+    }
+    disp_details(123, "John");
+
+</div>
+
+## توابع بازگشتی:
+
 </div>
