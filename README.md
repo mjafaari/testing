@@ -100,8 +100,8 @@
 
 <div dir="ltr">
 
- var age: number = 44;         // number variable  
- var name: string = "Ali";     // string variable  
+    var age: number = 44;         // number variable  
+    var name: string = "Ali";     // string variable  
 
 
 </div>
