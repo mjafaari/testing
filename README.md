@@ -167,4 +167,65 @@
 
 ![enter image description here](https://www.tutorialspoint.com/typescript/images/data_types.jpg)
 
+# variable
+
+متغیر ها در TypeScript بصورت زیر تعریف میشوند:
+
+![enter image description here](https://www.tutorialspoint.com/typescript/images/declare_type.jpg)
+
+در این تعریف بخش type-annotation و value اختیاری است و میتوانند در تعریف مشخص نشوند.
+مثال:
+
+<div dir="ltr">
+	
+    var score: number = 50;
+    
+</div>
+
+# Condition و Loop:
+
+-نمونه کد برای تصمیم گیری در یک Condition:
+
+<div dir="ltr">
+	
+    if (num % 2==0) { 
+        console.log("Even"); 
+    } else {
+        console.log("Odd"); 
+    }
+    
+</div>
+
+۳ روش برای ایجاد حلقه در جهت اجرای چند باره یک بخش از کد وجود دارد:
+
+- for loop:
+
+<div dir="ltr">
+	
+    for (initial_count_value; termination-condition; step) {
+        //statements 
+    }
+    
+</div>
+    
+- while loop:
+
+<div dir="ltr">
+	
+    while(condition) { 
+        // statements if the condition is true 
+    }
+
+</div>
+
+- do… while:
+
+<div dir="ltr">
+	
+    do {
+        //statements 
+        } while(condition)
+    
+</div>	
+
 </div>
