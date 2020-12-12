@@ -148,4 +148,14 @@
 
 </div>
 
+- برای پرینت یک پیام از سینتکس زیر استفاده میشود:
+
+<div dir="ltr">
+	
+    console.log("hello world")
+    
+</div>
+
+
+
 </div>
