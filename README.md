@@ -136,5 +136,16 @@
 	2. Behavior
 	3. Identity
 
+- کامنت در TypeScript بصورت زیر گذاشته میشوند:
+
+<div dir="ltr">
+
+    //this is single line comment 
+	 
+    /* This is a  
+    Multi-line comment 
+    */
+
+</div>
 
 </div>
