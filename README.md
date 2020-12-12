@@ -162,6 +162,7 @@
 - Built-in types: 
 تفاوت Null و Undefined: متغیری که در ابتدا undefined مشخص شده یعنی مقدار یا شی ای به آن اختصاص داده نشده است ولی متغیر null به معنی آن است که به این متغیر شی ای که مقداری ندارد اختصاص داده شده است.
 - User-defined types
+
 ![enter image description here](https://www.tutorialspoint.com/typescript/images/data_types.jpg)
 
 </div>
