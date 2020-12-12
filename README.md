@@ -88,6 +88,26 @@
 
 - در ts کد ابتدا به زبان js کامپایل و سپس اجرا می‌شود. برای همین اگر اروری داشته باشد قبل از اجرای کد باید آن‌را رفع کرد. به مثال زیر توجه کنید:
 
+<div dir="ltr">
+
+TS:
+    s = "ali";
+    console.log(s); // error s not defined
+    s = 12;
+    console.log(s); // error s not defined
+
+</div>
+
+<div dir="ltr">
+
+Js:
+    s = "ali";
+    console.log(s); //ali
+    s = 12;
+    console.log(s); //12
+
+</div>
+
 - در ts ما برای annotation به شکل زیر عمل میکنیم:
 
 <div dir="ltr">
