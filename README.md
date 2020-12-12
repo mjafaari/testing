@@ -59,4 +59,26 @@
 
 درنسخه‌های قدیمی js، شی‌گرایی وجود نداشت ولی در نسخه جدید به آن اضافه شده ولی با ts دارای تفاوت‌هایی است که در قطعه کد زیر به آن می‌پردازیم:
 
+<div dir="ltr">
+	
+   	// JS🟨
+	class User {
+	    #name
+	    constructor(name) {
+	        this.#name = name;
+	    }
+	}
+	const user = new User('Tom');
+	
+	// TS🟦
+	class User {
+	    #name: string 
+	    constructor(name: string) {
+	        this.#name = name;
+	    }
+	}
+	const user = new User('Tom')
+
+	
+</div>
 </div>
