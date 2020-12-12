@@ -88,9 +88,10 @@
 
 - در ts کد ابتدا به زبان js کامپایل و سپس اجرا می‌شود. برای همین اگر اروری داشته باشد قبل از اجرای کد باید آن‌را رفع کرد. به مثال زیر توجه کنید:
 
+TS:
+
 <div dir="ltr">
 
-TS:
     s = "ali";
     console.log(s); // error s not defined
     s = 12;
@@ -98,9 +99,10 @@ TS:
 
 </div>
 
+Js:
+
 <div dir="ltr">
 
-Js:
     s = "ali";
     console.log(s); //ali
     s = 12;
