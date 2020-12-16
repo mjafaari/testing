@@ -316,6 +316,18 @@ Js:
 
 </div>
 
+# Numbers
+
+TypeScript مانند JavaScript مقادیر عددی را بصورت اشیا از حنس عدد ساپورت میکند. شی Number یک مقدار عددی را به یک نمونه از کلاس Number تبدیل میکند و این کلاس برای آن مثل یک wrapper عمل میکند.
+
+-سینتکس مناسب برای ساختن یک Number Object:
+
+<div dir="ltr">
+
+    var var_name = new Number(value)
+
+</div>
+
 # Array
 
 آرایه یک مجموعه از value ها را ذخیره میکند.
