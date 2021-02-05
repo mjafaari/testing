@@ -222,6 +222,45 @@ Redis دارای سه ویژگی اصلی است که آن را متمایز م�
 
 </div>
 
+### ویرایش configuration:
+
+برای به روزرسانی configuration، می توانید مستقیماً فایل redis.conf را ویرایش کنید یا می توانید config ها را از طریق دستور CONFIG set به روز کنید.
+
+سینتکس دستور CONFIG SET:
+
+<div dir="ltr">
+	
+    redis 127.0.0.1:6379> CONFIG SET CONFIG_SETTING_NAME NEW_CONFIG_VALUE
+    
+</div>
+
+مثال:
+
+<div dir="ltr">
+	
+    redis 127.0.0.1:6379> CONFIG SET loglevel "notice" 
+    OK 
+    redis 127.0.0.1:6379> CONFIG GET loglevel  
+    1) "loglevel" 
+    2) "notice" 
+    
+</div>
+
+# Instructions
+
+از دستورات Redis برای انجام برخی عملیات در سرور Redis استفاده می شود.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 تایپ‌اسکریپت دربرگیرنده جاوااسکریپت است ولی تفاوت‌هایی جزیی با آن دارد که در جدول زیر به آن‌ها می‌پردازیم:
