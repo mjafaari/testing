@@ -7,5 +7,7 @@
 #### response:
 | status code | possible responses/errors |
 | ----------- | ------------------------- |
-| 200 | "success": True, "message": "IP has been updated" |
-| 201 | "success": False, "messaeg": "" |
+| 201 | "success": True, "message": "IP has been updated" |
+| 400 | "success": False, "messaeg": "bad request" |
+| 401 | "success": False, "messaeg": "wrong jwt" |
+| 404 | "success": False, "messaeg": "machine number does not exist" |
