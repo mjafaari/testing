@@ -3,7 +3,7 @@
 /v1/info/add_ip and it takes ip as params
 ```
 #### data:
- - 'ip': $ip
+ - 'ip': ip_adderss [CharField]
 #### response:
 | status code | possible responses/errors |
 | ----------- | ------------------------- |
