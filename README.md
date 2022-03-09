@@ -1,9 +1,10 @@
-### Add IP
+### Add IP:
 ```
 /v1/info/add_ip and it takes ip as params
 ```
-#### data
-'ip': $ip
+#### data:
+ - 'ip': $ip
+#### response:
 | status code | possible responses/errors |
 | ----------- | ------------------------- |
 | 200 | "success": True, "message": "IP has been updated" |
